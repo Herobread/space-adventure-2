@@ -1,0 +1,175 @@
+﻿  space adventure 2.cpp
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(32,9): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(32,24): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(34,15): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(34,36): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(114,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(148,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(160,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(260,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(271,27): warning C4305: +=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(275,27): warning C4305: +=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(283,49): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(288,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(289,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(290,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(291,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(292,55): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(294,59): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(296,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(297,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(298,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(299,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(300,55): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(302,59): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(304,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(305,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(306,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(307,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(308,55): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(310,59): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(314,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(315,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(316,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(318,58): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(320,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(321,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(322,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(324,58): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(326,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(327,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(328,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(330,58): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(334,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(335,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(337,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(338,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(340,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(341,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(354,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(365,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(434,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(445,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(473,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(486,31): warning C4305: -=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(499,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(504,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(505,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(506,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(507,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(508,55): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(510,59): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(512,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(513,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(514,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(515,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(516,55): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(518,59): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(520,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(521,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(522,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(523,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(524,55): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(526,59): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(530,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(531,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(532,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(534,58): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(536,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(537,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(538,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(540,58): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(542,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(543,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(544,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(546,58): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(550,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(551,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(553,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(554,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(556,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(557,54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1156,26): warning C4129: #: неизвестная escape-последовательность
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1158,26): warning C4129: %: неизвестная escape-последовательность
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1255,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1257,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1272,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1290,15): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1290,35): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1314,29): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1352,25): warning C4305: -=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1354,25): warning C4305: +=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1357,38): warning C4244: аргумент: преобразование "float" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1358,38): warning C4244: аргумент: преобразование "float" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1376,29): warning C4305: -=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1380,29): warning C4305: +=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1392,26): warning C4244: аргумент: преобразование "float" в "const _Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1512,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1516,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1529,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1547,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1590,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1593,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1599,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1614,32): warning C4305: +=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1635,25): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1635,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1639,29): warning C4305: +=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1641,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1641,37): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1663,42): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1663,39): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1667,38): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1667,35): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1671,34): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1671,31): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1676,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1676,26): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1682,25): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1682,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1686,52): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1686,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(1707,29): warning C4244: инициализация: преобразование "_Rep" в "int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2234,23): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2245,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2247,31): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2249,35): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2267,32): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2282,35): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2300,31): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2302,35): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2304,39): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2319,33): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2332,24): warning C4305: -=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2333,26): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2333,21): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2335,29): warning C4305: -=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2337,29): warning C4305: +=: усечение из "double" в "float"
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2342,30): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2353,34): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2356,65): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2362,43): warning C4244: аргумент: преобразование "float" в "const unsigned int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2366,47): warning C4244: аргумент: преобразование "float" в "const unsigned int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2368,47): warning C4244: аргумент: преобразование "float" в "const unsigned int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2370,47): warning C4244: аргумент: преобразование "float" в "const unsigned int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2372,47): warning C4244: аргумент: преобразование "float" в "const unsigned int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2374,47): warning C4244: аргумент: преобразование "float" в "const unsigned int", возможна потеря данных
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2377,31): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\alexe_000\source\repos\Space Adventure 2\space adventure 2.cpp(2462,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Space Adventure 2.vcxproj -> C:\Users\alexe_000\source\repos\Space Adventure 2\Debug\Space Adventure 2.exe
