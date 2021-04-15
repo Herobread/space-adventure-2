@@ -1,0 +1,123 @@
+texture[0] = "                                                                          . .. .                                        ";
+    texture[1] = "                                                                         ... ..";
+    texture[2] = "                                                                       .  . .";
+    texture[3] = "                                                                      . .. .";
+    texture[4] = "                                                                      ...";
+    texture[5] = "                                                                    .. .  .";
+    texture[6] = "                                                                   .  ...";
+    texture[7] = "                                                                    ...";
+    texture[8] = "                                                                  ..  ..";
+    texture[9] = "                                                                 . . .";
+    texture[10] = "                                                                 .. . ";
+    texture[11] = "                                                                ... . ";
+    texture[12] = "                                                                . ..  ";
+    texture[13] = "                                                                .. .. ";
+    texture[14] = "                                                               . ..";
+    texture[15] = "                                                              .  . .";
+    texture[16] = "                                                              . .";
+    texture[17] = "                                                              .  .";
+    texture[18] = "                                                             . #  .";
+    texture[19] = "                      /\\                                     .  .";
+    texture[20] = "                      \\/                                      . .";
+    texture[21] = "                                     _ /                    .  . .                             O              _---_";
+    texture[22] = "                                    / /                       .. .                                           /     \\";
+    texture[23] = "                                   | / |                     . .                                            |       |";
+    texture[24] = " .                                  /_/                       .  .                                   *      |   0   |";
+    texture[25] = "                                   /                        ..  ..                                          |       |";
+    texture[26] = "          <>                                        _       .  .                                             \\_   _/";
+    texture[27] = "                                                   / \\       ..  .                   0                         ---";
+    texture[28] = "                                                  |   |       .   .";
+    texture[29] = "                                                   \\_/         .. ";
+    texture[30] = "                                                              . . . ";
+    texture[31] = "                                                                 .  ";
+    texture[32] = "                                                                .   ";
+    texture[33] = "                                                               .  . .          *";
+    texture[34] = "                                                                 . .  ";
+    texture[35] = "                                                                 ..   ";
+    texture[36] = "                                                                .. .. ";
+    texture[37] = "                                                                . .  .";
+    texture[38] = "                                                               .  .   .";
+    texture[39] = "                                                                    . .";
+    texture[40] = "                                                                  ..   .";
+    texture[41] = "                                                                   ..   .";
+    texture[42] = "                                                                   .     .";
+    texture[43] = "                                                                      .  .";
+    texture[44] = "                                                                         ..";
+    texture[45] = "                                                                       . .  .";
+    texture[46] = "                                                                     .    .  .";
+    texture[47] = "                                                                        .  . .. ";
+    texture[48] = "                                                                        .  .   .";
+    texture[49] = "                                                                          . . .. .                                      ";
+    int deltaX = 5;
+    drawTexture(deltaX, 0, 50);
+
+    if (pos == 1)// mercury
+    {
+        mercury(1 + deltaX, height - 21);
+        text(100 + deltaX, 24, "[");
+        text(102 + deltaX, 24, "]");
+        text(98 + deltaX, 25, "Mercury");
+    }
+    else if (pos == 2) // Venus
+    {
+        venus(1 + deltaX, height - 21);
+        text(94 + deltaX, 21, "[");
+        text(96 + deltaX, 21, "]");
+        text(93 + deltaX, 22, "Venus");
+    }
+    else if (pos == 3) // Earth
+    {
+        earth(1 + deltaX, height - 21);
+        text(84 + deltaX, 27, "[");
+        text(86 + deltaX, 27, "]");
+        text(83 + deltaX, 28, "Earth");
+    }
+    else if (pos == 4) // Mars
+    {
+        mars(1 + deltaX, height - 21);
+        text(78 + deltaX, 33, "[");
+        text(80 + deltaX, 33, "]");
+        text(78 + deltaX, 34, "Mars");
+    }
+    else if (pos == 5) // AB Base
+    {
+        text(1 + deltaX, height - 9, "ab base");
+        text(62 + deltaX, 18, "[");
+        text(64 + deltaX, 18, "]");
+        text(60 + deltaX, 19, "AB Base");
+    }
+    else if (pos == 6) // Jupiter
+    {
+        jupiter(1, height - 22);
+        text(48 + deltaX, 28, "[");
+        text(56 + deltaX, 28, "]");
+        text(49 + deltaX, 30, "Jupiter");
+    }
+    else if (pos == 7) // Saturn
+    {
+        saturn(1 + deltaX, height - 23);
+        text(33 + deltaX, 23, "[");
+        text(41 + deltaX, 23, "]");
+        text(34 + deltaX, 25, "Saturn");
+    }
+    else if (pos == 8) // Uranus
+    {
+        uran(1 + deltaX, height - 21);
+        text(20 + deltaX, 20, "[");
+        text(25 + deltaX, 20, "]");
+        text(20 + deltaX, 21, "Uranus");
+    }
+    else if (pos == 9) //Neptune
+    {
+        neptune(1 + deltaX, height - 22);
+        text(8 + deltaX, 26, "[");
+        text(13 + deltaX, 26, "]");
+        text(8 + deltaX, 27, "Neptune");
+    }
+    else if (pos == 10) // pluto
+    {
+        pluto(1 + deltaX, height - 9);
+        text(0 + deltaX, 24, "[");
+        text(2 + deltaX, 24, "]");
+        text(0 + deltaX, 26, "Pluto");
+    }

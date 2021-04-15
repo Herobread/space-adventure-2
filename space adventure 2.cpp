@@ -252,6 +252,27 @@ void landingAnimation(int planetPos)
         deltaX = 2;
         deltaYBg = height/2;
     }
+    else if (planetPos == 4)
+    {
+        bg[0] = " ",
+            bg[1] = "                                                                                                                                  ";
+        bg[2] = "                                                                                                                                  ";
+        bg[3] = "                                                                                                                                  ";
+        bg[4] = "                                                                                                                                  ";
+        bg[5] = "                                                                                                                                  ";
+        bg[6] = "                                                                                                                                  ";
+        bg[7] = "                                                                                                                                  ";
+        bg[8] = "                                                                                                                                  ";
+        bg[9] = "00000000";
+        bg[10] = "        0000000000000000                                                                                            00000000000000";
+        bg[11] = "                        0000000000000                                                        00000000000000000000000";
+        bg[12] = "                                     00000000000000000000000000000000000000000000000000000000";
+
+        h = 13;
+        deltaY = 7;
+        deltaX = 2;
+        deltaYBg = height / 2;
+    }
 
     for ( int l = 0 ; l < 100; l += 1)
     {
@@ -416,6 +437,27 @@ void liftOfAnimation(int planetPos)
         bg[15] = ". . . . .. . . . . . . . . .  . .  .   .  .. .. . . . . .                .    .  .  .  .  .  .   .  .  .  .  . .  .  . .. .  . . .";
         h = 16;
         deltaY = 3;
+        deltaX = 2;
+        deltaYBg = height / 2;
+    }
+    else if (planetPos == 4)
+    {
+        bg[0]  = " ",
+        bg[1]  = "                                                                                                                                  ";
+        bg[2]  = "                                                                                                                                  ";
+        bg[3]  = "                                                                                                                                  ";
+        bg[4]  = "                                                                                                                                  ";
+        bg[5]  = "                                                                                                                                  ";
+        bg[6]  = "                                                                                                                                  ";
+        bg[7]  = "                                                                                                                                  ";
+        bg[8]  = "                                                                                                                                  ";
+        bg[9] = "00000000";
+        bg[10] = "        0000000000000000                                                                                            00000000000000";
+        bg[11] = "                        0000000000000                                                        00000000000000000000000";
+        bg[12] = "                                     00000000000000000000000000000000000000000000000000000000";
+
+        h = 13;
+        deltaY = 7;
         deltaX = 2;
         deltaYBg = height / 2;
     }
@@ -1305,14 +1347,16 @@ void reset()
     bulletYp.clear();
 }
 
+// 5000 1
 void flight(int startPos, int destination)
 {
     planetX = -70;
+    invincible = 0;
     len = startPos;
     //len = 5300;
     game += 1;
     float colisionTime = 0.1, crash = 0, totalTime = 0, totalTimes = 0, shootCooldown = 5;
-    int destinationPos = destination, animPos = 0, end = 0, temp = 15;;
+    int destinationPos = destination, animPos = 0, end = 0, temp = 15;
     bool isAnim = 0;
     destination = planets[destination];
 
@@ -1392,7 +1436,6 @@ void flight(int startPos, int destination)
         trailY.push_back(y);
         trailY.erase(trailY.begin());
         // generating dots
-
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -2063,6 +2106,293 @@ void shop(int start)
 
 void walk(int planet, int startPos)
 {
+    if (planet == 4)
+    {
+        vector <vector <string>> chunk(10, vector<string>(10, ""));
+        vector <vector <string>> chunkTextured(10, vector<string>(10, ""));
+
+        chunk[0] = {
+    " ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "------                                                --------------------------------                                            ",
+    "      ---------                    -------------------                                -----------------------                     ",
+    "               --------------------                                                                          ---------------------"
+        };
+        chunkTextured[0] = {
+    " ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "0000000                                               000000000000000000000000000000000                                           ",
+    "      0000000000                   00000000000000000000                               000000000000000000000000                    ",
+    "               000000000000000000000                                                                         000000000000000000000"
+
+        };
+        chunk[1] = {
+    " ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "----------------                                                                                             ---------------------",
+    "                -------------                           fff                          ------------------------                      ",
+    "                             --------------------------------------------------------                                             "
+
+        };
+        chunkTextured[1] = {
+    " ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                          |                                                                       ",
+    "                                                         / \\                                                                      ",
+    "                                                        |   |                                                                     ",
+    "                                                        | 0 |                                                                     ",
+    "                                                        |   |                                                                      ",
+    "0000000000000000                                  _____//-|-\\\\_____                                          0000000000000000000000",
+    "                0000000000000                    /| | | | | | | | |\\                 000000000000000000000000                     ",
+    "                             00000000000000000000000000000000000000000000000000000000                                             "
+        };
+        chunk[2] = {
+    " ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                   --------------------------                                                                     ",
+    "                 ------------------                          -------------------                                                  ",
+    "-----------------                                                               ---------------------                             ",
+    "                                                                                                     -----------------------------"
+        };
+        chunkTextured[2] = {
+    " ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                   000000000000000000000000000                                                                    ",
+    "                 0000000000000000000                         00000000000000000000                                                 ",
+    "000000000000000000                                                              0000000000000000000000                            ",
+    "                                                                                                     00000000000000000000000000000",
+        };
+        chunk[3] = {
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                        ------------------------------------------------------                                          ----------",
+    "------------------------                                                      ------------------------------------------          "
+        };
+        chunkTextured[3] = {
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                                                                                                                                  ",
+    "                       0000000000000000000000000000000000000000000000000000000                                          0000000000",
+    "000000000000000000000000                                                      0000000000000000000000000000000000000000000         "
+        };
+
+        vector <int> interactionsX;
+        vector <char> interactionsType;
+
+        const int lim = width * height + 1;
+
+        if (startPos == 0)
+            playerX = 187;
+        else
+            playerX = startPos;
+
+        const int heightT = 50;
+        const int widthT = 780;
+        char terrain[heightT][widthT] = { ' ' };
+
+        int amountOfChunks = 4;
+        int deltaY = height / 2;
+
+        // height calculation
+        vector <int> chunkHeight(9999, 0);
+        for (int i = 0; i < chunk.size(); i += 1)
+        {
+            for (int k = 0; k < chunk[i].size(); k += 1)
+            {
+                for (int j = 0; j < chunk[i][k].size(); j += 1)
+                {
+                    if (chunk[i][k][j] == '-')
+                        chunkHeight[j + width * i] = k;
+                    if (chunk[i][k][j] == 'f')
+                    {
+                        interactionsX.push_back(j + width * i);
+                        interactionsType.push_back('f');
+                    }
+                    if (chunk[i][k][j] == 's')
+                    {
+                        interactionsX.push_back(j + width * i);
+                        interactionsType.push_back('s');
+                    }
+                }
+            }
+        }
+
+        float smX = width, smY = height * 0.2;
+        int smType = 3;
+
+        while (true)
+        {
+            jumpTime -= 1;
+
+            if (GetAsyncKeyState((unsigned short)'A') && playerX > 0)
+                playerX -= 1;
+            if (GetAsyncKeyState((unsigned short)'D') && playerX < width * amountOfChunks - 1)
+                playerX += 1;
+            if (GetAsyncKeyState((unsigned short)32) && jumpTime < -5)
+                jumpTime = 10;
+            if (GetAsyncKeyState((unsigned short)13) || GetAsyncKeyState((unsigned short)'E'))
+            {
+                for (int i = 0; i < interactionsX.size(); i += 1)
+                {
+                    if (playerX == interactionsX[i])
+                    {
+                        if (interactionsType[i] == 'f')
+                        {
+                            map(4);
+                        }
+                        if (interactionsType[i] == 's')
+                        {
+                            shop(3);
+                        }
+                    }
+                }
+            }
+
+            text(2, 2, to_string(playerX));
+
+            for (int i = 0; i < chunkTextured.size(); i += 1)
+            {
+                for (int k = 0; k < chunkTextured[i].size(); k += 1)
+                {
+                    for (int j = 0; j < chunkTextured[i][k].size(); j += 1)
+                    {
+                        terrain[k][j + width * i] = chunkTextured[i][k][j];
+                    }
+                }
+            }
+
+            int k = 0;
+            int temp2 = 0;
+
+            if (playerX < 65)
+                temp2 = 0;
+            else if (playerX > width * amountOfChunks - 65)
+                temp2 = width * (amountOfChunks - 1);
+            else
+                temp2 = playerX - 65;
+
+            for (int i = 0; i < heightT; i += 1)
+            {
+                for (int j = temp2; j < widthT + playerX + 65; j += 1)
+                {
+                    screen[(i + deltaY) * width + k] = terrain[i][j];
+                    k += 1;
+                }
+                k = 0;
+            }
+
+            //sun and moon
+            smX -= 0.05;
+            sunMoon(smX, smY, smType % 2);
+            if (smX > 65)
+                smY -= 0.005;
+            else
+                smY += 0.005;
+
+            if (smX < -10)
+            {
+                smX = width;
+                smY = height * 0.2;
+                smType += 1;
+            }
+
+
+
+            //jump and player render
+            //borders
+            int deltaX = 0;
+            // left
+            if (playerX < 65)
+                deltaX = playerX - 65;
+            // right
+            else if (playerX > width * amountOfChunks - 65)
+                deltaX = playerX - (amountOfChunks - 0) * width + 65;
+            else
+                deltaX = 0;
+
+
+            if (jumpTime < 0)
+                screen[(int)((chunkHeight[playerX] + deltaY - 1) * width + 65 + deltaX)] = '@';
+            else
+            {
+                if (jumpTime == 10 || jumpTime == 9)
+                    screen[(int)((chunkHeight[playerX] + deltaY - 1 - 1) * width + 65 + deltaX)] = '@';
+                if (jumpTime == 8 || jumpTime == 7)
+                    screen[(int)((chunkHeight[playerX] + deltaY - 1 - 2) * width + 65 + deltaX)] = '@';
+                if (jumpTime == 6 || jumpTime == 5 || jumpTime == 4)
+                    screen[(int)((chunkHeight[playerX] + deltaY - 1 - 3) * width + 65 + deltaX)] = '@';
+                if (jumpTime == 2 || jumpTime == 3)
+                    screen[(int)((chunkHeight[playerX] + deltaY - 1 - 2) * width + 65 + deltaX)] = '@';
+                if (jumpTime == 0 || jumpTime == 1)
+                    screen[(int)((chunkHeight[playerX] + deltaY - 1 - 1) * width + 65 + deltaX)] = '@';
+            }
+
+            for (int i = 0; i < interactionsX.size(); i += 1)
+            {
+                if (playerX == interactionsX[i])
+                {
+                    if (interactionsType[i] == 'f')
+                    {
+                        str = "Press enter to hop on the rocket";
+                        text(width / 2 - str.length() / 2, height - 2, str);
+                    }
+                }
+            }
+
+            render();
+            Sleep(40);
+            emptyBuffer();
+        }
+    }
+    else
     if (planet == 3)
     {
         vector <vector <string>> chunk(10, vector<string>(10, ""));
