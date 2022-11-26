@@ -8,7 +8,7 @@ import { Point } from '../lib/quadtree/point.js'
 import { randomInRange } from '../lib/util.js'
 import { renderer } from '../lib/renderer.js'
 import { shapes } from '../lib/shapes.js'
-import { Camera } from '../objects/Camera.js'
+import { Camera } from '../objects/camera.js'
 
 let boundary = new Rectangle(0, 0, 500_000, 500_000)
 
