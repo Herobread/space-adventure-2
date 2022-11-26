@@ -3,7 +3,6 @@ import { logger } from './lib/logger.js'
 import { mouse } from './lib/mouse.js'
 import { asciiMap, renderer } from './lib/renderer.js'
 import { pages } from './pages.js'
-import { Camera } from './objects/Camera.js'
 
 // editable config //
 
