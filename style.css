@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Monospace;
+    font-size: 12px;
+    text-size-adjust: none;
+    line-height: 12px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html {
+    cursor: none;
+    overflow: hidden;
+
+    background-color: #0C0C0C;
+    color: #CCCCCC;
+
+    /* color: #0C0C0C; */
+    /* background-color: #fff; */
+}
+
+#asciicontainer {
+    text-align: center;
+    vertical-align: middle;
+}
