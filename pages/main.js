@@ -9,14 +9,17 @@ import { randomInRange } from '../lib/util.js'
 import { renderer } from '../lib/renderer.js'
 import { shapes } from '../lib/shapes.js'
 import { Camera } from '../objects/camera.js'
+import { Player } from '../objects/player.js'
 
 let boundary = new Rectangle(0, 0, 500_000, 500_000)
 
-let qt = new QuadTree(boundary, 40)
+let qt = new QuadTree(boundary, 20)
 let camera = new Camera(0, 0)
+let player = {}
 
 export function initGame() {
-    for (let i = 0; i < 200000; i += 1) {
+    player = new Player(10, 10)
+    for (let i = 0; i < 200_000; i += 1) {
         let rect = new Rectangle(randomInRange(0, 50_000), randomInRange(0, 50_000), randomInRange(10, 50), randomInRange(10, 50))
         qt.insertRectangle(rect)
     }
@@ -31,6 +34,7 @@ export function game() {
     const cameraX = cameraPos.x
     const cameraY = cameraPos.y
 
+    player.tick(pointer, keyboard)
 
     let range = new Rectangle(cameraX, cameraY, window.w, window.h)
 
@@ -51,7 +55,12 @@ export function game() {
         shapes.rectangle('@', tempRect)
     })
 
-    camera.tick(pointer, keyboard)
+
+
+    // camera.tick(pointer, keyboard)
+
+    let playerPos = player.getXY()
+    camera.moveToXY(playerPos.x, playerPos.y)
 
     tick()
     mouse.showCursor()
